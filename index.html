@@ -3,11 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
     <title>Kviz</title>
 </head>
 <body>
-    <h1>Dobrodosli u nas kviz</h1>
-    <p></p>
+    
+    <div id="start">
+        <h1>Dobrodosli u nas kviz</h1>
+        <button id="startbtn">Zapocni</button>
+    </div>
+    <div id="quiz" class="hidden">
+      <h1 id="question">q</h1>
+      <div id="ans">
+        <button id="ans1">1</button>
+        <button id="ans2">2</button>
+        <button id="ans3">3</button>
+        <button id="ans4">4</button>
+        
+      </div>
+      <button id="lockin">lockin</button>
+      
+    </div>
+    <div id="finish"  class="hidden">
+      <h1 id="finishscore"></h1>
+
+    </div>
+    
   <script src="script.js"></script>
 </body>
 </html>
